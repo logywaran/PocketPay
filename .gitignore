@@ -1,0 +1,37 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local configuration
+application-local.yaml
+application-local.yml
+application-local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Frontend
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
